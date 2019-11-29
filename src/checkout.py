@@ -1,9 +1,9 @@
 from src.models.item import Item
 from src.models.discount import Discount
-from src.services.payment import PaymentService, PaymentResults
+from src.services.payment import PaymentService
+
 
 class Checkout:
-
     def __init__(self):
         self.cart = []
         self.discount_list = {}
